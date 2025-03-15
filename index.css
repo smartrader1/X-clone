@@ -1,0 +1,219 @@
+html, body {
+    margin: 15px 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* typography and icons */
+
+h1{
+    color: #0F1419;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    width: 360px;
+    margin: 0 auto;
+}
+
+header{
+    padding-bottom: 25px;
+}
+
+.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    border-top: 1px solid #D3D3D3;
+    padding-top: 15px;
+}
+
+
+.tweet-input{
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#tweet-btn{
+    background-color: #0F1419;
+    border: none;
+    color: white;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%; 
+    cursor: pointer;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* tweet */
+
+.tweet{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.reply-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 220px;
+    gap: 10px
+}
+.reply-detail{
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 4px;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    width: 300px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+.hidden2{
+    display: none;
+}
+
+.reply-input{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    font-family: 'poppins', sans-serif;
+    font-size: small;
+    border-radius: 12px;
+    line-height: 120%;
+}
+
+.reply-btn{
+    background-color: #0F1419;
+    border: none;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 12px;
+    width: auto; 
+    height: 60px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+  
+}
+
+.replyArea{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 7px;
+    margin: 20px 0px;
+}
+
+.makeshorter{
+    margin-left: 37px;
+}
+
+.removeTweet{
+    display: none;
+}
+/* 
+.repliesUnOpen{
+    display: none;
+}
+
+.reveal{
+    display: flex;
+}
+
+.hide{
+    display: none;
+} */
